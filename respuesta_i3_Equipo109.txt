@@ -19,3 +19,21 @@ git checkout AlvarezGamma -- beta.txt
 git add beta.txt
 git commit -m "BETA: merge AlvarezGamma a main, resuelve conflicto"
 git push origin main
+
+d) ¿Las ramas quedan con datos actualizados?
+La rama AlvarezGamma queda actualizada con los datos de los tres integrantes ya que todos trabajaron sobre ella. La rama VilasBeta queda actualizada con beta.txt modificado por BETA, GAMMA y ALFA. Sin embargo ninguna rama tiene el contenido de la otra; solo main termina teniendo todo luego de los dos merges.
+
+e) Problemas en el merge:
+El principal problema fue un conflicto de tipo modify/delete en beta.txt: Git detectó que el archivo existía en VilasBeta con los cambios de los tres integrantes pero no existía en main, por lo que el merge automático falló. Se resolvió con git checkout VilasBeta -- beta.txt para conservar la versión de la rama y luego commitear manualmente.
+Además BETA tuvo un problema previo: tenía CPUALFA.txt modificado sin commitear en su máquina, lo que le impedía cambiar a main. Tuvo que commitear ese archivo antes de poder hacer el merge.
+
+f) Todos los comandos correspondientes que fueron realizadas son las siguientes:
+- git pull 
+- git checkout VilasBeta 
+- echo "Nombre: Mateo " >> beta.txt 
+- echo "Apellido: Alvarez " >> beta.txt 
+- ipconfig >> beta.txt 
+- echo "hora: 22:15" >> beta.txt
+- git add beta.txt
+- git commit -m "GAMmA: Agregue mis datos en beta.txt"
+- git push origin VilasBeta
