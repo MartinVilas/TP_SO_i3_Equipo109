@@ -77,3 +77,25 @@ Adaptador de LAN inal mbrica Wi-Fi:
    M scara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : 192.168.1.1
 hora: 22:15
+Nombre: Gonzalo
+Apellido: Vilte
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::d090:e686:545f:2779%3
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.1.13
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.1.1
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::21be:a26e:2275:6e87%6
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+Hora: 22:23
