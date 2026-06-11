@@ -2,3 +2,20 @@ Participantes:
 Gonzalo Vilte (ALFA)
 Martin Vilas (BETA)
 Mateo Alvarez (GAMMA)
+
+a) ¿Cómo queda el master después de estos cambios? 
+Master queda con el contenido completo de ambas ramas fusionadas. Contiene: datos.txt con los datos de los tres integrantes, CPUGamma.txt, CPUAlfa.txt, CPUBeta.txt, y beta.txt con los datos de BETA, GAMMA y ALFA incluyendo la info de red y hora de cada uno.
+
+b) ¿BETA pudo ver todos los cambios realizados?
+Sí. Al hacer git pull origin VilasBeta antes del merge trajo todos los commits de GAMMA y ALFA. Con git log --oneline pudo verificar que estaban los cambios de los tres integrantes antes de fusionar.
+
+c) Comandos del punto 5:
+bashgit checkout VilasBeta
+git pull origin VilasBeta
+git checkout main
+git pull origin main
+git merge AlvarezGamma
+git checkout AlvarezGamma -- beta.txt
+git add beta.txt
+git commit -m "BETA: merge AlvarezGamma a main, resuelve conflicto"
+git push origin main
