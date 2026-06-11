@@ -1,0 +1,42 @@
+Nombre: Mart√≠n
+Apellido: Vilas
+ifconfig
+ifconfig:
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec°fico para la conexi¢n. . : 
+   V°nculo: direcci¢n IPv6 local. . . : fe80::f6b5:215a:86d7:e6df%17
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M†scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de LAN inal†mbrica Conexi¢n de †rea local* 3:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec°fico para la conexi¢n. . : 
+
+Adaptador de LAN inal†mbrica Conexi¢n de †rea local* 4:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec°fico para la conexi¢n. . : 
+
+Adaptador de LAN inal†mbrica Wi-Fi:
+
+   Sufijo DNS espec°fico para la conexi¢n. . : 
+   Direcci¢n IPv6 . . . . . . . . . . : 2803:9800:b036:7f04:a6e0:4e8:24ce:6209
+   Direcci¢n IPv6 temporal. . . . . . : 2803:9800:b036:7f04:7533:dc05:b204:adb6
+   V°nculo: direcci¢n IPv6 local. . . : fe80::550a:7d12:da60:9e4b%20
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.100.135
+   M†scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::1%20
+                                       192.168.100.1
+
+Adaptador de Ethernet Conexi¢n de red Bluetooth:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec°fico para la conexi¢n. . : 
+Hora: 22:02
