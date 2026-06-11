@@ -37,3 +37,14 @@ f) Todos los comandos correspondientes que fueron realizadas son las siguientes:
 - git add beta.txt
 - git commit -m "GAMmA: Agregue mis datos en beta.txt"
 - git push origin VilasBeta
+
+g) Comandos del punto 8:
+git checkout -b VilasBeta origin/VilasBeta
+git pull origin VilasBeta
+echo "Nombre: Alvarez Gonzalo" >> beta.txt
+echo "ifconfig:" >> beta.txt
+ipconfig >> beta.txt
+echo "Hora: " >> beta.txt
+git add beta.txt
+git commit -m "ALFA: agrega sus datos en beta.txt"
+git push origin VilasBeta
