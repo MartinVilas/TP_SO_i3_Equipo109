@@ -2,6 +2,7 @@ Participantes:
 Gonzalo Vilte (ALFA)
 Martin Vilas (BETA)
 Mateo Alvarez (GAMMA)
+Agustin Amarilla (DELTA)
 
 a) ¿Cómo queda el master después de estos cambios? 
 Master queda con el contenido completo de ambas ramas fusionadas. Contiene: datos.txt con los datos de los tres integrantes, CPUGamma.txt, CPUAlfa.txt, CPUBeta.txt, y beta.txt con los datos de BETA, GAMMA y ALFA incluyendo la info de red y hora de cada uno.
